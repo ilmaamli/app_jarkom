@@ -1,0 +1,301 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".materi_activity">
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:ignore="MissingConstraints">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="16dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-condensed-medium"
+                android:layout_marginTop="15dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:textStyle="bold"
+                android:justificationMode="inter_word"
+                android:text="A. Jaringan Lokal dan Internet" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-condensed-medium"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:justificationMode="inter_word"
+                android:text="Jaringan komputer menggunakan dua buah atau lebih perangkat dengan menggunakan sebuah sistem komunikasi yang terstandarisasi secara global, yaitu Transmission Control Protocol/Internet Protocol Suite (TCP/IP). Jaringan komputer yang menghubungkan komputer ada dua jenis, yaitu jaringan lokal dan jaringan internet. Perbedaan keduanya ada pada jangkauannya. Jaringan lokal memiliki jangkauan yang lebih terbatas dibandingkan dengan jaringan internet. "/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-condensed-medium"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:justificationMode="inter_word"
+                android:text="1. Jaringan Lokal"
+                android:textStyle="bold"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-condensed-medium"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:justificationMode="inter_word"
+                android:text="Jaringan lokal adalah jaringan komputer berkabel maupun nirkabel yang menghubungkan komputer dengan perangkat lainnya dalam area terbatas seperti tempat tinggal, sekolah, laboratorium, kampus universitas, atau gedung kantor. Perangkat atau komputer yang ada di jaringan lokal hanya bisa diakses oleh perangkat lain yang berada pada jaringan yang sama. Setiap perangkat atau komputer yang terhubung dalam jaringan lokal akan memiliki ID unik yang berbeda satu sama lainnya dan disebut Alamat IP (IP address), misalnya 192.168.0.1. Dalam implementasinya, biasanya satu perangkat akan disebut server, sedangkan perangkat lainnya disebut client." />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="120dp"
+                android:layout_marginLeft="85dp"
+                android:src="@drawable/jaringan_lokal" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:justificationMode="inter_word"
+                android:fontFamily="sans-serif-condensed-medium"
+                android:text="Gambar Contoh Jaringan Lokal"
+                android:textAlignment="center"
+                android:textSize="10sp" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:fontFamily="sans-serif-condensed-medium"
+                android:justificationMode="inter_word"
+                android:text="Gambar 5.2 menunjukkan contoh jaringan lokal yang menghubungkan
+lima buah perangkat, yaitu tiga buah
+komputer, satu buah HP, dan satu buah
+laptop. Jika kalian perhatikan, setiap
+perangkat memiliki IP address yang
+berbeda. Karena IP address ini hanya
+berlaku pada jaringan lokal, bisa juga
+disebut sebagai IP private. Apa yang akan
+terjadi jika ada dua buah perangkat yang
+memiliki IP address yang sama?
+Apa sebenarnya arti dan fungsi dari IP address? IP address merupakan
+identitas sebuah komputer dalam jaringan komputer. IP address berfungsi
+sebagai alamat pengiriman data dari satu perangkat ke perangkat lain.
+Mungkin kalian bisa menganalogikan IP address seperti alamat rumah. Saat
+akan mengirim paket, tentunya akan lebih mudah kalau sudah mengetahui
+alamat pastinya. Sama halnya dengan ketika kalian akan mengirim data dari
+satu perangkat ke perangkat lain. Kalian harus tahu data itu akan dikirim ke
+komputer dengan IP address yang mana. IP address sendiri biasanya terdiri atas 32 bit yang dipisah menjadi 4 bagian sehingga setiap bagian akan terdiri atas
+8 bit. Nah, 8 bit ini merupakan bilangan biner yang diterjemahkan ke dalam
+bilangan desimal." />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-condensed-medium"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:justificationMode="inter_word"
+                android:text="2. Internet"
+                android:textStyle="bold"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-condensed-medium"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:justificationMode="inter_word"
+                android:text="Berbeda dengan jaringan lokal yang hanya menghubungkan perangkat
+dengan jangkauan yang terbatas pada area tertentu saja misalnya perumahan,
+perkantoran, sekolah, dan lain sebagainya, jaringan internet memiliki koneksi
+dengan cakupan yang lebih luas yang bisa menghubungkan perangkat di
+seluruh dunia. Misalnya, kalian berada di Jakarta. Dengan jaringan internet,
+kalian bisa mengakses perangkat atau informasi yang ada di Kalimantan
+bahkan di negara lain. Luar biasa, ‘kan? Internet sendiri merupakan kepanjangan dari interconnection-networking,
+yaitu sebuah jaringan komputer yang menghubungkan banyak perangkat
+di seluruh dunia. Jaringan internet ini memungkinkan adanya pertukaran
+data paket (packet switching communication protocol) untuk melayani miliaran
+pengguna di seluruh dunia. Secara konsep, jaringan internet juga disebut
+jaringan area luas (Wide Area Network). "
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-condensed-medium"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:justificationMode="inter_word"
+                android:text="Pada awalnya di tahun 1960-an, internet hanyalah sebagai proyek
+penelitian yang didanai oleh Departemen Pertahanan Amerika Serikat pada
+tahun 1969, melalui proyek lembaga ARPA yang mengembangkan jaringan
+yang dinamakan ARPANET (Advanced Research Project Agency Network).
+Kemudian, berkembang menjadi infrastruktur publik pada 1980-an dengan
+dukungan dari banyak universitas negeri dan perusahaan swasta."
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-condensed-medium"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:justificationMode="inter_word"
+                android:text="Untuk bisa mengakses jaringan internet, biasanya perangkat apa pun
+harus terhubung dengan salah satu Internet Service Provider (ISP) dengan
+menggunakan mekanisme koneksi internet tertentu. Jika jaringan lokal
+terhubung dengan ISP, baik secara berkabel maupun nirkabel, perangkat
+dalam jaringan lokal bisa mengakses internet. Hal ini ditunjukkan dengan
+garis merah (yang diasumsikan sebagai kabel) pada Gambar 5.3. Sama seperti
+jaringan lokal, setiap perangkat pada jaringan internet juga harus memiliki
+IP address yang berbeda-beda. Karena IP address ini berlaku secara global,
+bisa juga disebut IP public. Akan tetapi, tidak semua perangkat lokal yang
+terhubung dengan internet memiliki IP public karena biasanya IP public hanya
+digunakan pada perangkat utama yang terhubung dengan jaringan internet
+secara langsung, dalam hal ini ada perangkat modem yang terhubung dengan
+ISP."
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-condensed-medium"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:justificationMode="inter_word"
+                android:text="B. Komunikasi Data dengan Ponsel"
+                android:textStyle="bold"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-condensed-medium"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:justificationMode="inter_word"
+                android:text="Salah satu penggunaan jaringan internet dalam membantu kehidupan
+sehari-hari ialah sebagai sarana komunikasi baik melalui ponsel maupun
+melalui perangkat lainnya. Oleh sebab itu, kalian perlu memahami tentang
+mekanisme komunikasi data yang terjadi pada ponsel. Di lain pihak, ketika
+menggunakan internet, kalian juga perlu memperhatikan keamanan data
+yang dikirim melalui jaringan internet."
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-condensed-medium"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:justificationMode="inter_word"
+                android:text="1. Jaringan Komunikasi pada Ponsel"
+                android:textStyle="bold"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-condensed-medium"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:justificationMode="inter_word"
+                android:text="Komunikasi data merupakan sebuah mekanisme pengiriman dan penerimaan
+data dari satu perangkat ke perangkat lain. Ketika kita menggunakan ponsel,
+baik untuk keperluan kirim pesan atau SMS (short message system), panggilan
+suara, maupun transfer dokumen, di dalamnya ada mekanisme komunikasi
+data yang terjadi antara ponsel pengirim dan ponsel penerima. Komunikasi
+data dalam ponsel dilakukan pada BTS (Base Transceiver Station) melalui
+beberapa cara dan media, yaitu dengan bluetooth, kabel data ataupun melalui
+jaringan komunikasi seperti CDMA (Code Division Multiple Access) atau GSM
+(Global System for Mobile). Namun, karena makin berkembangnya teknologi
+internet, saat ini, komunikasi data menggunakan ponsel bisa melalui jaringan
+internet antara lain seperti berikut."
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-condensed-medium"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:justificationMode="inter_word"
+                android:text="a. GPRS (General Packet Radio Service) merupakan jaringan internet pada
+ponsel yang memiliki kecepatan antara 35-171 Kpbs. Dengan kecepatan ini,
+biasanya, hanya cukup untuk mengirim pesan yang tidak terlalu panjang. \n
+b. EDGE (Enhanced Data rate for GSM Evolution) merupakan jaringan
+internet yang memiliki kecepatan lebih baik dibandingkan dengan GPRS
+karena memiliki kecepatan antara 120-384 Kbps.\n
+C. 3G merupakan jaringan internet GPRS versi 3 yang menggunakan
+protokol transfer data United Mobile Telecommunication Technology sehingga
+menghasilkan kecepatan antara 384 Kbps – 2 Mbps. \n
+d. Generasi berikutnya ialah HSPA (High Speed Packet Access) yang dikenal
+dengan nama 3.5G dan memiliki kecepatan 600 Kbps – 10 Mbps. Adapun
+HSDPA (High Speed Downlink Packet Access) atau dikenal dengan nama H+
+pada layar HP kita memiliki kecepatan yang stabil pada kisaran 7.2 Mbps. \n
+e. 4G/LTE (Long Term Evolution) merupakan generasi keempat dari GPRS
+yang memiliki kecepatan hingga 100 Mbps. Saat ini, hampir sebagian besar
+ponsel di pasaran sudah mendukung jaringan 4G/LTE."
+                />
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="120dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="25dp"
+                android:src="@drawable/komunikasi_telepon_seluler" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:justificationMode="inter_word"
+                android:fontFamily="sans-serif-condensed-medium"
+                android:text="Gambar Salah Satu Alur Kerja Proses Komunikasi Data SMS melalui Ponsel"
+                android:textAlignment="center"
+                android:textSize="10sp" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-condensed-medium"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:textStyle="bold"
+                android:justificationMode="inter_word"
+                android:text="2. Komunikasi Data dengan Ponsel"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-condensed-medium"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:justificationMode="inter_word"
+                android:text="Ponsel/handphone/HP merupakan sebuah perangkat yang bekerja layaknya
+sebuah komputer karena bisa terhubung ke dalam sebuah jaringan lokal
+maupun jaringan internet. Oleh karena itu, sangat memungkinkan bagi kalian
+untuk saling melakukan komunikasi data antara satu ponsel dan ponsel
+lainnya. Ada beberapa jenis koneksi jaringan pada perangkat ponsel yang
+digunakan untuk komunikasi data. Sebagian besar koneksi tersebut lebih
+banyak menggunakan media tanpa kabel, yaitu antara lain koneksi dengan
+kabel data, koneksi dengan bluetooth, dan koneksi dengan wifi."
+                />
+
+        </LinearLayout>
+    </RelativeLayout>
+</ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

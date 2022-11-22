@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".apersepsi_activity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="16dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:orientation="vertical">
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginRight="15dp"
+            android:fontFamily="sans-serif-condensed-medium"
+            android:justificationMode="inter_word"
+            android:text="Internet saat ini merupakan salah satu hal penting yang membantu banyak aspek kehidupan. Saat ini, ketika kita akan membuka rekening baru di bank, kita tidak perlu lagi mengunjungi kantor bank, tetapi cukup mengakses aplikasi bank yang tersedia secara online, mengisi formulir dan melakukan verifikasi secara langsung melalui video call dengan petugas. Namun, mengakses internet bukan tanpa masalah. Kita perlu paham cara mengakses internet dengan aman supaya tidak merugikan kita. "
+            android:textAlignment="textStart" />
+    </RelativeLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
